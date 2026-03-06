@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: test_src
+Version: 0.1.dev1+g29e710099
+Author-email: Seoklab members <contact@seoklab.org>
+Maintainer-email: Nuri Jung <jnooree@snu.ac.kr>
+Project-URL: Repository, https://github.com/hsbyeon1/test_src.git
+Classifier: Development Status :: 4 - Beta
+Requires-Python: <3.14,>=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: tqdm

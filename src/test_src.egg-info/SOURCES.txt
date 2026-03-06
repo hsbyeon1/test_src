@@ -1,0 +1,10 @@
+pyproject.toml
+.github/workflows/notify-test-dst.yml
+src/__init__.py
+src/test_src/__init__.py
+src/test_src/foo.py
+src/test_src.egg-info/PKG-INFO
+src/test_src.egg-info/SOURCES.txt
+src/test_src.egg-info/dependency_links.txt
+src/test_src.egg-info/requires.txt
+src/test_src.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+name: Notify test_dst of Update
+
+on:
+  push:
+    branches:
+      - main  # Fires when a PR is merged into main
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.GH_PAT_FOR_DISPATCH }}
+          repository: hsbyeon1/test_dst  # Change to your actual repo path
+          event-type: test_src_updated
